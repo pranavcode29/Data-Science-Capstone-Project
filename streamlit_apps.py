@@ -14,7 +14,7 @@ from sklearn.preprocessing import OneHotEncoder
 
 
 # Load the dataset
-df = pd.read_csv(r"C:\Users\Raj Kumar Vij\OneDrive\Desktop\capstone\CAR DETAILS.csv")
+df = pd.read_csv("CAR DETAILS.csv")
 
 X = df.drop('selling_price', axis=1)
 y = df['selling_price']
